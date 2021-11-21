@@ -12,6 +12,9 @@ user t2.micro
 Install Master
 **curl -sfL https://get.k3s.io | sh -s - --no-deploy traefik --write-kubeconfig-mode 644 --node-name k3s-master-01**
 
+
+# Orignal repo https://gitlab.com/cloud-versity/rancher-k3s-first-steps/-/tree/main
+
 # what ever name we give to our master when join node we have to give same name here we use k3s-master-01 so in join cmd we use same name 
 
 kubectl get  node      # if you run abow cmd on sudo you have use sudo here also 
