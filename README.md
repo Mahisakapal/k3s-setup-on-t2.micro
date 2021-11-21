@@ -40,5 +40,7 @@ Make sure to restart the service afterwards: systemctl restart k3s
 In many cases you can just run the installer with different variables again and it will configure your cluster accordingly without deleting it in the first place.
 
 Deploy demo application is in same repo there in <your_ip> we have to give our master server publice ip 
-** Note : in ingress we have give public dns junrraly we got that from aws but if not work you can give publice_ip.nip.io (ex: 30.4.76.2.nip.io)**
+
+ ** Note : in ingress we have give public dns junrraly we got that from aws but if not work you can give publice_ip.nip.io (ex: 30.4.76.2.nip.io)**
+  
 **kubectl apply -f manifest.yaml  **
