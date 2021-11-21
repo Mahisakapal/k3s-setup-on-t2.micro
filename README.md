@@ -1,0 +1,1 @@
+# k3s-setup-on-t2.micro
