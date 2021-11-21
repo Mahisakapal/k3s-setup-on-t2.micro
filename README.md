@@ -51,3 +51,4 @@ In many cases you can just run the installer with different variables again and 
 
 
 `kubectl apply -f manifest.yaml`
+
