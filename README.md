@@ -15,7 +15,7 @@ I'll use Linode for that demo.
 
 `curl -sfL https://get.k3s.io | sh -s - --no-deploy traefik --write-kubeconfig-mode 644 --node-name k3s-master-01`
 
-## what ever name we give to our master when join node we have to give same name here we use k3s-master-01 so in join cmd we use same name 
+## what ever name we want to give our worker node make sure it's not repiting when join node we have to give same name here we use k3s-master-01 so in join cmd we use same name 
 
 ### Install Worker
 
