@@ -21,7 +21,7 @@ I'll use Linode for that demo.
 
 Grab token from the master node to be able to add worked nodes to it: 
 
-`cat /var/lib/rancher/k3s/server/node-token`
+`sudo cat /var/lib/rancher/k3s/server/node-token`
 
 Install k3s on the worker node and add it to our cluster:
 
